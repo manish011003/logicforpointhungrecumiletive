@@ -1,0 +1,23 @@
+[
+    {
+      "Smartphone Model": "Find X3 Pro",
+      "Brand": "Oppo",
+      "Precious Metals": "Gold, Silver, Palladium, Copper",
+      "Gold (%)": 0.030,
+      "Silver (%)": 0.14,
+      "Palladium (%)": 0.0095,
+      "Copper (%)": 1.40,
+      "Year Released": 2021
+    },
+    {
+      "Smartphone Model": "Reno 5 Pro+",
+      "Brand": "Oppo",
+      "Precious Metals": "Gold, Silver, Palladium, Copper",
+      "Gold (%)": 0.025,
+      "Silver (%)": 0.13,
+      "Palladium (%)": 0.008,
+      "Copper (%)": 1.35,
+      "Year Released": 2020
+    }
+  ]
+  

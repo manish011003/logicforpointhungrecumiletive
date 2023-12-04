@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Points Platform</title>
+</head>
+<body>
+
+    <label for="brand">Select a Brand:</label>
+    <select id="brand" onchange="loadDevices()">
+        <option value="" disabled selected>Select a Brand</option>
+        <option value="samsung">Samsung</option>
+        <option value="iphone">iPhone</option>
+        <option value="huawei">Huawei</option>
+        <option value="xiaomi">Xiaomi</option>
+        <option value="oneplus">OnePlus</option>
+        <option value="google">Google</option>
+        <option value="oppo">Oppo</option>
+    </select>
+
+    <label for="device">Select a Device:</label>
+    <select id="device"></select>
+    <button onclick="calculatePoints()">Calculate Points</button>
+
+    <div id="result"></div>
+
+    <script>
+        function loadDevices() {
+            const selectedBrand = document.getElementById("brand").value;
+            const dropdown = document.getElementById("device");
+            dropdown.innerHTML = '<option value="" disabled selected>Select a Device</option>';
+
+            if (selectedBrand) {
+                fetch(`/${selectedBrand}-dataset.json`)
+                    .then(response => response.json())
+                    .then(data => {
+                        // Populate the dropdown with device options
+                        data.forEach(device => {
+                            const option = document.createElement("option");
+                            option.text = device['Smartphone Model'];
+                            dropdown.add(option);
+                        });
+                    })
+                    .catch(error => console.error('Error loading dataset:', error));
+            }
+        }
+
+        function calculatePoints() {
+            const selectedBrand = document.getElementById("brand").value;
+            const selectedDevice = document.getElementById("device").value;
+
+            if (selectedBrand && selectedDevice) {
+                fetch('/calculatePoints', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ userDevices: [selectedDevice], brand: selectedBrand }),
+                })
+                .then(response => response.json())
+                .then(data => {
+                    const resultElement = document.getElementById('result');
+                    const points = data[selectedDevice].points;
+                    const preciousMetals = data[selectedDevice].preciousMetals;
+
+                    resultElement.innerHTML = `<p>${selectedDevice} (${selectedBrand}): ${points} points</p>`;
+
+                    resultElement.innerHTML += "<p>Precious Metals:</p>";
+                    Object.keys(preciousMetals).forEach(metal => {
+                        resultElement.innerHTML += `<p>${metal}: ${preciousMetals[metal]}%</p>`;
+                    });
+                })
+                .catch(error => console.error('Error:', error));
+            }
+        }
+    </script>
+
+</body>
+</html>

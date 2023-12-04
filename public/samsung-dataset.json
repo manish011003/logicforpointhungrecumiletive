@@ -1,0 +1,53 @@
+[
+    {
+      "Smartphone Model": "Galaxy S21 Ultra",
+      "Brand": "Samsung",
+      "Precious Metals": "Gold, Silver, Palladium, Copper",
+      "Gold (%)": 0.028,
+      "Silver (%)": 0.14,
+      "Palladium (%)": 0.0095,
+      "Copper (%)": 1.45,
+      "Year Released": 2021
+    },
+    {
+      "Smartphone Model": "Galaxy Note 20",
+      "Brand": "Samsung",
+      "Precious Metals": "Gold, Silver, Palladium, Copper",
+      "Gold (%)": 0.025,
+      "Silver (%)": 0.13,
+      "Palladium (%)": 0.008,
+      "Copper (%)": 1.40,
+      "Year Released": 2020
+    },
+    {
+      "Smartphone Model": "Galaxy Z Fold 3",
+      "Brand": "Samsung",
+      "Precious Metals": "Gold, Silver, Palladium, Copper",
+      "Gold (%)": 0.030,
+      "Silver (%)": 0.15,
+      "Palladium (%)": 0.010,
+      "Copper (%)": 1.50,
+      "Year Released": 2021
+    },
+    {
+      "Smartphone Model": "Galaxy Z Flip 3",
+      "Brand": "Samsung",
+      "Precious Metals": "Gold, Silver, Palladium, Copper",
+      "Gold (%)": 0.027,
+      "Silver (%)": 0.14,
+      "Palladium (%)": 0.009,
+      "Copper (%)": 1.46,
+      "Year Released": 2021
+    },
+    {
+      "Smartphone Model": "Galaxy S20 FE",
+      "Brand": "Samsung",
+      "Precious Metals": "Gold, Silver, Palladium, Copper",
+      "Gold (%)": 0.026,
+      "Silver (%)": 0.13,
+      "Palladium (%)": 0.0085,
+      "Copper (%)": 1.42,
+      "Year Released": 2020
+    }
+  ]
+  

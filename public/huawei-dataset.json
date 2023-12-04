@@ -1,0 +1,53 @@
+[
+    {
+      "Smartphone Model": "P40 Pro",
+      "Brand": "Huawei",
+      "Precious Metals": "Gold",
+      "Gold (%)": 0.022,
+      "Silver (%)": 0.12,
+      "Palladium (%)": 0.0075,
+      "Copper (%)": 1.30,
+      "Year Released": 2020
+    },
+    {
+      "Smartphone Model": "Mate 30 Pro",
+      "Brand": "Huawei",
+      "Precious Metals": "Gold",
+      "Gold (%)": 0.026,
+      "Silver (%)": 0.14,
+      "Palladium (%)": 0.009,
+      "Copper (%)": 1.42,
+      "Year Released": 2019
+    },
+    {
+      "Smartphone Model": "P50 Pro",
+      "Brand": "Huawei",
+      "Precious Metals": "Gold",
+      "Gold (%)": 0.031,
+      "Silver (%)": 0.16,
+      "Palladium (%)": 0.0105,
+      "Copper (%)": 1.55,
+      "Year Released": 2021
+    },
+    {
+      "Smartphone Model": "Nova 8 Pro",
+      "Brand": "Huawei",
+      "Precious Metals": "Gold",
+      "Gold (%)": 0.028,
+      "Silver (%)": 0.15,
+      "Palladium (%)": 0.0095,
+      "Copper (%)": 1.46,
+      "Year Released": 2020
+    },
+    {
+      "Smartphone Model": "Mate X2",
+      "Brand": "Huawei",
+      "Precious Metals": "Gold",
+      "Gold (%)": 0.029,
+      "Silver (%)": 0.14,
+      "Palladium (%)": 0.0095,
+      "Copper (%)": 1.48,
+      "Year Released": 2021
+    }
+  ]
+  

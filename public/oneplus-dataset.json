@@ -1,0 +1,53 @@
+[
+    {
+      "Smartphone Model": "9 Pro",
+      "Brand": "OnePlus",
+      "Precious Metals": "Gold, Silver, Palladium, Copper",
+      "Gold (%)": 0.028,
+      "Silver (%)": 0.15,
+      "Palladium (%)": 0.0095,
+      "Copper (%)": 1.45,
+      "Year Released": 2021
+    },
+    {
+      "Smartphone Model": "8T",
+      "Brand": "OnePlus",
+      "Precious Metals": "Gold, Silver, Palladium, Copper",
+      "Gold (%)": 0.025,
+      "Silver (%)": 0.13,
+      "Palladium (%)": 0.008,
+      "Copper (%)": 1.40,
+      "Year Released": 2020
+    },
+    {
+      "Smartphone Model": "Nord 2",
+      "Brand": "OnePlus",
+      "Precious Metals": "Gold, Silver, Palladium, Copper",
+      "Gold (%)": 0.026,
+      "Silver (%)": 0.14,
+      "Palladium (%)": 0.009,
+      "Copper (%)": 1.42,
+      "Year Released": 2021
+    },
+    {
+      "Smartphone Model": "OnePlus 9R",
+      "Brand": "OnePlus",
+      "Precious Metals": "Gold, Silver, Palladium, Copper",
+      "Gold (%)": 0.023,
+      "Silver (%)": 0.12,
+      "Palladium (%)": 0.0075,
+      "Copper (%)": 1.38,
+      "Year Released": 2021
+    },
+    {
+      "Smartphone Model": "Nord CE 5G",
+      "Brand": "OnePlus",
+      "Precious Metals": "Gold, Silver, Palladium, Copper",
+      "Gold (%)": 0.020,
+      "Silver (%)": 0.11,
+      "Palladium (%)": 0.007,
+      "Copper (%)": 1.35,
+      "Year Released": 2021
+    }
+  ]
+  

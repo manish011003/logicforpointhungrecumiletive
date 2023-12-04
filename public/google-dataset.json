@@ -1,0 +1,53 @@
+[
+    {
+      "Smartphone Model": "Pixel 6",
+      "Brand": "Google",
+      "Precious Metals": "Gold",
+      "Gold (%)": 0.022,
+      "Silver (%)": 0.12,
+      "Palladium (%)": 0.0075,
+      "Copper (%)": 1.30,
+      "Year Released": 2021
+    },
+    {
+      "Smartphone Model": "Pixel 4a",
+      "Brand": "Google",
+      "Precious Metals": "Gold",
+      "Gold (%)": 0.018,
+      "Silver (%)": 0.11,
+      "Palladium (%)": 0.007,
+      "Copper (%)": 1.30,
+      "Year Released": 2020
+    },
+    {
+      "Smartphone Model": "Pixel 5",
+      "Brand": "Google",
+      "Precious Metals": "Gold",
+      "Gold (%)": 0.025,
+      "Silver (%)": 0.13,
+      "Palladium (%)": 0.008,
+      "Copper (%)": 1.40,
+      "Year Released": 2020
+    },
+    {
+      "Smartphone Model": "Pixel 4",
+      "Brand": "Google",
+      "Precious Metals": "Gold",
+      "Gold (%)": 0.020,
+      "Silver (%)": 0.10,
+      "Palladium (%)": 0.0065,
+      "Copper (%)": 1.28,
+      "Year Released": 2019
+    },
+    {
+      "Smartphone Model": "Pixel 3a",
+      "Brand": "Google",
+      "Precious Metals": "Gold",
+      "Gold (%)": 0.016,
+      "Silver (%)": 0.09,
+      "Palladium (%)": 0.0055,
+      "Copper (%)": 1.25,
+      "Year Released": 2019
+    }
+  ]
+  

@@ -1,0 +1,53 @@
+[
+    {
+      "Smartphone Model": "Mi 11",
+      "Brand": "Xiaomi",
+      "Precious Metals": "Gold, Silver, Palladium, Copper",
+      "Gold (%)": 0.029,
+      "Silver (%)": 0.15,
+      "Palladium (%)": 0.01,
+      "Copper (%)": 1.50,
+      "Year Released": 2021
+    },
+    {
+      "Smartphone Model": "Redmi Note 9 Pro",
+      "Brand": "Xiaomi",
+      "Precious Metals": "Gold, Silver, Palladium, Copper",
+      "Gold (%)": 0.018,
+      "Silver (%)": 0.11,
+      "Palladium (%)": 0.007,
+      "Copper (%)": 1.30,
+      "Year Released": 2020
+    },
+    {
+      "Smartphone Model": "Poco X3 Pro",
+      "Brand": "Xiaomi",
+      "Precious Metals": "Gold, Silver, Palladium, Copper",
+      "Gold (%)": 0.024,
+      "Silver (%)": 0.12,
+      "Palladium (%)": 0.008,
+      "Copper (%)": 1.35,
+      "Year Released": 2021
+    },
+    {
+      "Smartphone Model": "Mi 10 Pro",
+      "Brand": "Xiaomi",
+      "Precious Metals": "Gold, Silver, Palladium, Copper",
+      "Gold (%)": 0.027,
+      "Silver (%)": 0.14,
+      "Palladium (%)": 0.009,
+      "Copper (%)": 1.44,
+      "Year Released": 2020
+    },
+    {
+      "Smartphone Model": "Black Shark 4",
+      "Brand": "Xiaomi",
+      "Precious Metals": "Gold, Silver, Palladium, Copper",
+      "Gold (%)": 0.030,
+      "Silver (%)": 0.15,
+      "Palladium (%)": 0.0095,
+      "Copper (%)": 1.48,
+      "Year Released": 2021
+    }
+  ]
+  
